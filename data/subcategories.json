@@ -1,0 +1,360 @@
+{
+    "Mathématiques": {
+        "Algebre": {
+            "definition": "L'étude des structures algébriques comme les groupes, anneaux et corps.",
+            "formulas": [
+                {
+                    "name": "Formule du discriminant",
+                    "formula": "Δ = b² - 4ac",
+                    "example": "Pour l'équation x² + 3x + 2 = 0, le discriminant est Δ = 3² - 4(1)(2) = 1."
+                }
+            ]
+        },
+        "Géométrie": {
+            "definition": "Étude des formes, des tailles, des positions relatives des figures et des propriétés de l'espace.",
+            "formulas": [
+                {
+                    "name": "Théorème de Pythagore",
+                    "formula": "a² + b² = c²",
+                    "example": "Dans un triangle rectangle, si les longueurs des côtés sont a = 3 et b = 4, alors c = 5."
+                }
+            ]
+        },
+        "Analyse": {
+            "definition": "L'étude des limites, dérivées, intégrales et séries infinies.",
+            "formulas": [
+                {
+                    "name": "Dérivée d'une fonction",
+                    "formula": "f'(x) = lim(h→0) [f(x+h) - f(x)] / h",
+                    "example": "La dérivée de f(x) = x² est f'(x) = 2x."
+                },
+                {
+                    "name": "Intégrale définie",
+                    "formula": "∫_a^b f(x) dx",
+                    "example": "L'intégrale de f(x) = x de 0 à 1 est égale à 0.5."
+                }
+            ]
+        },
+        "Probabilités et Statistiques": {
+            "definition": "Étude des événements aléatoires et des distributions statistiques.",
+            "formulas": [
+                {
+                    "name": "Écart-type",
+                    "formula": "σ = √[Σ(xi - μ)² / N]",
+                    "example": "Pour un échantillon {2, 4, 4, 4, 5, 5, 7, 9}, l'écart-type est environ 2."
+                },
+                {
+                    "name": "Loi des grands nombres",
+                    "formula": "lim(n→∞) (1/n) Σ Xi = E(X)",
+                    "example": "En lançant une pièce plusieurs fois, la moyenne des résultats converge vers la probabilité d'obtenir face ou pile."
+                }
+            ]
+        }
+    },
+    "Physique": {
+        "Mécanique": {
+            "definition": "Étude du mouvement des corps et des forces qui les affectent.",
+            "formulas": [
+                {
+                    "name": "Seconde loi de Newton",
+                    "formula": "F = m * a",
+                    "example": "Si une masse de 2 kg subit une accélération de 3 m/s², la force appliquée est F = 6 N."
+                }
+            ]
+        },
+        "Thermodynamique": {
+            "definition": "Étude des échanges de chaleur et du travail entre les systèmes.",
+            "formulas": [
+                {
+                    "name": "Première loi de la thermodynamique",
+                    "formula": "ΔU = Q - W",
+                    "example": "Si un système reçoit 500 J de chaleur et effectue un travail de 200 J, l'énergie interne du système augmente de 300 J."
+                }
+            ]
+        },
+        "Optique": {
+            "definition": "Étude des phénomènes liés à la lumière et à sa propagation.",
+            "formulas": [
+                {
+                    "name": "Loi de Snell-Descartes",
+                    "formula": "n1 * sin(θ1) = n2 * sin(θ2)",
+                    "example": "Si la lumière passe de l'air à l'eau avec un angle d'incidence de 30°, l'angle de réfraction dans l'eau sera plus petit."
+                }
+            ]
+        },
+        "Électromagnétisme": {
+            "definition": "Étude des champs électriques et magnétiques et de leurs interactions.",
+            "formulas": [
+                {
+                    "name": "Loi de Coulomb",
+                    "formula": "F = k * (q1 * q2) / r²",
+                    "example": "Deux charges de 1 C séparées par 1 m dans le vide exercent une force de 9 × 10⁹ N l'une sur l'autre."
+                }
+            ]
+        }
+    },
+    "Alimentation": {
+        "Proportions alimentaires": {
+            "definition": "L'étude des proportions d'aliments consommés par rapport aux besoins nutritionnels recommandés.",
+            "formulas": [
+                {
+                    "name": "Ratio protéines/glucides/lipides",
+                    "formula": "Ratio = (Protéines : Glucides : Lipides)",
+                    "example": "Pour une alimentation équilibrée, le ratio recommandé est souvent de 1:2:1."
+                }
+            ]
+        },
+        "Ratios nutritionnels": {
+            "definition": "Les relations entre différents nutriments dans l'alimentation, calculées en fonction des besoins diététiques.",
+            "formulas": [
+                {
+                    "name": "Ratio énergétique",
+                    "formula": "Ratio énergétique = Énergie provenant des lipides / Énergie totale",
+                    "example": "Si l'énergie totale est de 2000 kcal et les lipides représentent 600 kcal, alors le ratio est 0.3."
+                }
+            ]
+        },
+        "Calculs de valeur calorique": {
+            "definition": "Méthodes de calcul de la quantité d'énergie que chaque aliment fournit au corps.",
+            "formulas": [
+                {
+                    "name": "Valeur calorique",
+                    "formula": "Calories = (Protéines x 4) + (Glucides x 4) + (Lipides x 9)",
+                    "example": "Pour un aliment avec 10g de protéines, 20g de glucides, et 5g de lipides, la valeur calorique est 10x4 + 20x4 + 5x9 = 165 kcal."
+                }
+            ]
+        },
+        "Taux de croissance et d'absorption des nutriments": {
+            "definition": "L'analyse des taux auxquels les nutriments sont absorbés par le corps et utilisés pour la croissance.",
+            "formulas": [
+                {
+                    "name": "Taux d'absorption des protéines",
+                    "formula": "Taux d'absorption = (Protéines absorbées / Protéines consommées) x 100",
+                    "example": "Si 80g de protéines sont consommées et 60g sont absorbées, alors le taux d'absorption est 75%."
+                }
+            ]
+        },
+        "Modélisation des symétries dans les cultures agricoles": {
+            "definition": "L'étude des symétries et des répartitions optimales dans la production agricole pour maximiser les rendements.",
+            "formulas": [
+                {
+                    "name": "Densité de plantation",
+                    "formula": "Densité = Nombre de plantes / Surface cultivée",
+                    "example": "Si 500 plantes sont cultivées sur 1 hectare, la densité est 500 plantes/ha."
+                }
+            ]
+        }
+    },
+    "Astronomie": {
+        "Formules de gravitation universelle (loi de Newton)": {
+            "definition": "Loi qui décrit l'attraction gravitationnelle entre deux masses.",
+            "formulas": [
+                {
+                    "name": "Loi de la gravitation universelle",
+                    "formula": "F = G * (m1 * m2) / r²",
+                    "example": "Si deux masses de 5 kg et 10 kg sont séparées par une distance de 2 m, alors la force de gravitation est F = 6.674 × 10⁻¹¹ * (5 * 10) / 2² = 8.3425 × 10⁻¹¹ N."
+                }
+            ]
+        },
+        "Équations de Kepler pour les orbites": {
+            "definition": "Les trois lois de Kepler décrivent le mouvement des planètes autour du Soleil.",
+            "formulas": [
+                {
+                    "name": "1ère loi de Kepler",
+                    "formula": "Les planètes suivent des orbites elliptiques avec le Soleil à un des foyers.",
+                    "example": "La trajectoire d'une planète autour du Soleil est une ellipse, avec le Soleil situé à l'un des foyers de cette ellipse."
+                },
+                {
+                    "name": "3ème loi de Kepler",
+                    "formula": "T² ∝ a³",
+                    "example": "La période orbitale T d'une planète est liée au demi-grand axe a de son orbite. Par exemple, si a = 1 unité astronomique, alors T² = 1 année."
+                }
+            ]
+        },
+        "Relativité générale et équations d’Einstein": {
+            "definition": "La relativité générale décrit la gravitation comme la courbure de l'espace-temps causée par la masse et l'énergie.",
+            "formulas": [
+                {
+                    "name": "Équation d'Einstein",
+                    "formula": "R_{μν} - 1/2 * g_{μν} * R + Λ * g_{μν} = (8πG/c⁴) * T_{μν}",
+                    "example": "Cette équation décrit comment la matière et l'énergie influencent la courbure de l'espace-temps."
+                }
+            ]
+        },
+        "Distance et luminosité des étoiles": {
+            "definition": "Méthodes pour mesurer la distance des étoiles et leur luminosité.",
+            "formulas": [
+                {
+                    "name": "Modèle de luminosité stellaire",
+                    "formula": "L = 4π * R² * σ * T⁴",
+                    "example": "Pour une étoile avec un rayon de 2 × 10⁸ m et une température de 6000 K, la luminosité est L = 4π * (2 × 10⁸)² * 5.67 × 10⁻⁸ * 6000⁴."
+                },
+                {
+                    "name": "Distance d'une étoile (Parallaxe)",
+                    "formula": "d = 1 / p",
+                    "example": "Si l'angle de parallaxe p est de 0.1 arcseconde, alors la distance de l'étoile est d = 1 / 0.1 = 10 parsecs."
+                }
+            ]
+        },
+        "Formule de Hubble (expansion de l'univers)": {
+            "definition": "La loi de Hubble décrit l'expansion de l'univers en fonction de la vitesse de récession des galaxies.",
+            "formulas": [
+                {
+                    "name": "Loi de Hubble",
+                    "formula": "v = H₀ * d",
+                    "example": "Si H₀ = 70 km/s/Mpc et une galaxie est à 100 Mpc de distance, alors sa vitesse de récession est v = 70 * 100 = 7000 km/s."
+                }
+            ]
+        }
+    },
+    "Biologie": {
+        "Modèles de croissance exponentielle (ex. modèle de population de Malthus)": {
+            "definition": "Modèle qui décrit la croissance d'une population dans un environnement où les ressources sont illimitées.",
+            "formulas": [
+                {
+                    "name": "Modèle de croissance exponentielle",
+                    "formula": "P(t) = P₀ * e^(rt)",
+                    "example": "Si une population initiale est de 100 individus avec un taux de croissance de 2% par an, après 5 ans la population sera P(5) = 100 * e^(0.02*5) ≈ 110.52."
+                }
+            ]
+        },
+        "Équations de diffusion des gènes (modèles de Hardy-Weinberg)": {
+            "definition": "Un modèle qui décrit les fréquences alléliques et génotypiques dans une population idéale, sans facteurs évolutifs.",
+            "formulas": [
+                {
+                    "name": "Équilibre de Hardy-Weinberg",
+                    "formula": "p² + 2pq + q² = 1",
+                    "example": "Si la fréquence de l'allèle A est 0.7 et celle de l'allèle a est 0.3, alors les génotypes AA, Aa, et aa ont respectivement les fréquences 0.49, 0.42, et 0.09."
+                }
+            ]
+        },
+        "Modèles de Lotka-Volterra (prédation et proie)": {
+            "definition": "Un modèle de dynamique des populations qui décrit les interactions entre prédateurs et proies.",
+            "formulas": [
+                {
+                    "name": "Équation des proies",
+                    "formula": "dN/dt = rN - aNP",
+                    "example": "La population de proies (N) croît à un taux r mais diminue à cause des prédateurs (P) à un taux proportionnel à a."
+                },
+                {
+                    "name": "Équation des prédateurs",
+                    "formula": "dP/dt = bNP - mP",
+                    "example": "La population de prédateurs (P) croît en fonction de la consommation de proies à un taux b, mais diminue à un taux m en l'absence de nourriture."
+                }
+            ]
+        },
+        "Formules de transfert d'énergie dans les écosystèmes": {
+            "definition": "Des modèles qui expliquent comment l'énergie est transférée d'un niveau trophique à un autre dans un écosystème.",
+            "formulas": [
+                {
+                    "name": "Efficacité trophique",
+                    "formula": "Efficacité = (Énergie à un niveau trophique supérieur / Énergie à un niveau trophique inférieur) * 100",
+                    "example": "Si 1000 J sont disponibles au niveau des producteurs, et que 100 J sont transférés aux herbivores, l'efficacité est 10%."
+                }
+            ]
+        },
+        "Modélisation des épidémies (SIR, SEIR)": {
+            "definition": "Des modèles mathématiques utilisés pour décrire la propagation d'une maladie infectieuse dans une population.",
+            "formulas": [
+                {
+                    "name": "Modèle SIR",
+                    "formula": "dS/dt = -βSI, dI/dt = βSI - γI, dR/dt = γI",
+                    "example": "Dans une population, S représente les individus sensibles, I les infectés et R les récupérés. La vitesse de propagation dépend du taux d'infection β et du taux de récupération γ."
+                }
+            ]
+        }
+    },
+    "Chimie": {
+        "Loi des gaz parfaits (PV=nRT)": {
+            "definition": "Une équation d'état qui relie la pression, le volume, la quantité de matière, et la température d'un gaz idéal.",
+            "formulas": [
+                {
+                    "name": "Loi des gaz parfaits",
+                    "formula": "PV = nRT",
+                    "example": "Pour un gaz avec P = 2 atm, V = 5 L, n = 0.2 mol, et T = 300 K, on a R ≈ 0.0821 L·atm/mol·K. En appliquant la formule, on trouve que P = 2 atm."
+                }
+            ]
+        },
+        "Équations de vitesse des réactions chimiques": {
+            "definition": "Des équations qui décrivent la vitesse à laquelle les réactifs sont convertis en produits dans une réaction chimique.",
+            "formulas": [
+                {
+                    "name": "Équation de vitesse d'ordre 1",
+                    "formula": "v = k[A]",
+                    "example": "Pour une réaction d'ordre 1, si la concentration de A est 0.5 M et la constante de vitesse k est 0.2 s⁻¹, alors v = 0.2 * 0.5 = 0.1 M/s."
+                }
+            ]
+        },
+        "Équilibre chimique et constantes d'équilibre": {
+            "definition": "La condition où les concentrations des réactifs et des produits restent constantes au fil du temps dans une réaction réversible.",
+            "formulas": [
+                {
+                    "name": "Constante d'équilibre",
+                    "formula": "K = [produits] / [réactifs]",
+                    "example": "Pour une réaction A + B ⇌ C + D, K = [C][D] / [A][B]."
+                }
+            ]
+        },
+        "Lois de la thermodynamique": {
+            "definition": "Des lois qui décrivent les relations entre chaleur, travail, et énergie dans un système.",
+            "formulas": [
+                {
+                    "name": "1ère loi de la thermodynamique",
+                    "formula": "ΔU = Q - W",
+                    "example": "Si un système reçoit 100 J de chaleur et effectue 40 J de travail, l'énergie interne change de ΔU = 100 - 40 = 60 J."
+                }
+            ]
+        },
+        "Formules d'électrochimie (loi de Faraday)": {
+            "definition": "Des lois qui décrivent le lien entre la quantité d'électricité et la quantité de substance produite ou consommée dans une réaction électrochimique.",
+            "formulas": [
+                {
+                    "name": "Loi de Faraday",
+                    "formula": "m = (Q/F) * (M/z)",
+                    "example": "Pour une réaction qui consomme 96500 C (Q), avec une masse molaire M de 108 g/mol et une charge z de 2, la masse déposée est m = 108 * 1 = 108 g."
+                }
+            ]
+        }
+    },
+    "Climatologie": {
+        "Modèles de circulation atmosphérique": {
+            "definition": "Des modèles qui décrivent les mouvements de l'air dans l'atmosphère terrestre à différentes échelles.",
+            "formulas": [
+                {
+                    "name": "Equation de conservation de la masse",
+                    "formula": "∂ρ/∂t + ∇·(ρv) = 0",
+                    "example": "Cette équation décrit comment la densité de l'air change en fonction du temps et des mouvements de l'air."
+                }
+            ]
+        },
+        "Équations de transfert de chaleur": {
+            "definition": "Des équations qui décrivent comment la chaleur se déplace à travers différents milieux.",
+            "formulas": [
+                {
+                    "name": "Loi de Fourier",
+                    "formula": "q = -k * ∇T",
+                    "example": "Le flux de chaleur q dans un matériau est proportionnel au gradient de température ∇T et à la conductivité thermique k."
+                }
+            ]
+        },
+        "Modèles de prévision du climat (GCM – modèles globaux)": {
+            "definition": "Des modèles informatiques complexes utilisés pour simuler le climat global et prédire son évolution à long terme.",
+            "formulas": [
+                {
+                    "name": "Équation primitive pour les modèles climatiques",
+                    "formula": "dU/dt = -∇P + g - fv",
+                    "example": "Ces équations incluent les termes de la dynamique des fluides pour modéliser le comportement de l'atmosphère."
+                }
+            ]
+        },
+        "Calculs d’émissions de gaz à effet de serre": {
+            "definition": "Des formules pour estimer la quantité de gaz à effet de serre émise par diverses activités humaines.",
+            "formulas": [
+                {
+                    "name": "Émissions de CO₂",
+                    "formula": "E = A * I * G",
+                    "example": "Pour une voiture parcourant 1000 km avec une consommation de 6 L/100 km et un facteur d'émission de 2.31 kg CO₂/L, les émissions totales sont E = 6 * 1000 * 2.31 / 100 = 138.6 kg CO₂."
+                }
+            ]
+        }
+}}
