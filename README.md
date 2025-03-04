@@ -68,3 +68,8 @@ Ce projet est sous licence MIT. Voir le fichier [LICENSE](./LICENSE) pour plus d
 ---
 
 Merci d'utiliser Mathopedia ! Nous espérons qu'elle vous sera utile pour approfondir vos connaissances en mathématiques.
+
+## Structure du projet
+
+- `main.py` : Point d'entrée de l'application
+- `controllers/` : Contrôleurs de l'application
